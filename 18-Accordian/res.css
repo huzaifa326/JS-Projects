@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+    .accordion {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .accordion {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .accordion {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .accordion {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .accordion {
+        width: 95%;
+        padding: 60px 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+}

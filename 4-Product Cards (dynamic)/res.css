@@ -1,0 +1,45 @@
+@media screen and (max-width:1200px) {
+
+    #main-card {
+        width: 70%;
+    }
+
+    .product-box {
+        width: 48%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    #main-card {
+        width: 80%;
+    }
+
+    h1{
+        width: 70%;
+    }
+    .product-box {
+        width: 47%;
+    }
+
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    #main-card {
+        width: 70%;
+    }
+
+    h1{
+        width: 70%;
+        font-size: 28px;
+    }
+    .product-box {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 172, 172);
+}
+
+.calculator {
+    margin: 100px 0px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgba(0.4, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+input {
+    width: 88.5%;
+    font-size: larger;
+    padding: 10px 5px;
+    position: relative;
+    left: 9px;
+    top: 0;
+    border: 2px solid grey;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 2px 2px 2px rgba(0.4, 0, 0, 0.4);
+}
+
+.buttons {
+    padding: 15px 15px
+}
+
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-yellow {
+    background-color: rgb(166, 216, 67);
+}
+
+.btn-orange {
+    background-color: rgb(219, 155, 103);
+}

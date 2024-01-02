@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+/* ===================================================== */
+
+.vertial-nav {
+    width: 5%;
+    min-height: 100vh;
+    display: flex;
+    row-gap: 8px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vertial-nav a {
+    font-size: 25px;
+    color: #797979;
+    width: 100%;
+    padding: 8px 0px;
+    text-align: center;
+
+}
+
+.fa-react {
+    margin-top: 5px;
+    font-size: 40px;
+    color: #61DBFB;
+}
+
+.vertial-nav a:hover {
+    cursor: pointer;
+    background-color: #EDF4FC;
+}
+
+/* ===================================================== */
+
+.right-sec {
+    width: 95%;
+}
+
+/* ----------------- */
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+}
+
+h1 a {
+    color: #61DBFB;
+    font-weight: 500;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input {
+    position: relative;
+}
+
+.nav-items input {
+    border: none;
+    outline: none;
+    padding: 8px 10px 8px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.input .fa-search {
+    position: absolute;
+    color: #61DBFB;
+    font-size: 16px;
+    left: 15px;
+    top: 7px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.nav-icons i {
+    position: relative;
+    font-size: 20px;
+    color: #61DBFB;
+}
+
+.number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    background: #c94c45;
+    color: white;
+}
+
+
+.bars {
+    display: none;
+}
+
+.blue {
+    color: #61DBFB;
+}
+
+/* ----------------- */
+
+.main-sec {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+/* ----------------- */
+
+.search-bar {
+    width: 18%;
+    min-height: 470px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 90%;
+    margin: 15px 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.search-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar li {
+    width: 100%;
+    padding: 12px 12px;
+    margin-bottom: 5px;
+}
+
+.search-bar li:hover {
+    background-color: #EDF4FC;
+}
+
+.search-bar a {
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #EDF4FC;
+}
+
+/* ----------------- */
+
+.form-container {
+    width: 80%;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+h2 {
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.input-1 {
+    width: 24%;
+}
+
+.input-2 {
+    width: 37%;
+}
+
+.input-3 {
+    width: 37%;
+}
+
+.input-4 {
+    width: 40%;
+}
+
+.input-5 {
+    width: 59%;
+}
+
+.input-6 {
+    width: 56%;
+}
+
+.input-7 {
+    width: 21%;
+}
+
+.input-8 {
+    width: 21%;
+}
+
+select {
+    border: 1px solid rgb(172, 172, 172);
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+/* ----------------- */
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #1A78D1;
+    transition: all .3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* ===================================================== */
